@@ -1,4 +1,4 @@
-package org.cyloth.bloom_experiment_java;
+package org.cyloth.bloom_java;
 
 import com.google.common.hash.BloomFilter;
 import java.lang.Math;
@@ -12,7 +12,7 @@ import java.math.BigInteger;
 
 public class BigIntHashChecker {
   private static final String USAGE = "usage: mvn exec:java "
-      + "-Dexec.mainClass=\"org.cyloth.bloom_experiment_java.BigIntHashChecker\" "
+      + "-Dexec.mainClass=\"org.cyloth.bloom_java.BigIntHashChecker\" "
       + "-Dexec.args=\"<member_set_size> <path/to/member/set/file> <path/to/test/set/file>\"";
 
   public static void main(String args[]) {

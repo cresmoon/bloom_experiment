@@ -1,4 +1,4 @@
-package org.cyloth.bloom_experiment_java;
+package org.cyloth.bloom_java;
 
 import com.google.common.hash.Funnel;
 import com.google.common.hash.PrimitiveSink;

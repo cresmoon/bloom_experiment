@@ -1,4 +1,4 @@
-package org.cyloth.bloom_experiment_java;
+package org.cyloth.bloom_java;
 
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;
@@ -9,7 +9,7 @@ import java.io.InputStream;
 
 public class BloomFilterLoader {
   private static final String USAGE = "usage: mvn exec:java "
-      + "-Dexec.mainClass=\"org.cyloth.bloom_experiment_java.BloomFilterLoader\" "
+      + "-Dexec.mainClass=\"org.cyloth.bloom_java.BloomFilterLoader\" "
       + "-Dexec.args=\"<path/to/load/filter/file> <path/to/test/set/file>\"";
 
   public static void main(String args[]) {
